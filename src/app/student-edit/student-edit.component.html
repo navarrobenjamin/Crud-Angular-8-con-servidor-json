@@ -1,0 +1,19 @@
+<div class="container">
+
+    <h3>Editar estudiante</h3>
+    
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" [(ngModel)]="data.name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+            <label for="age">Edad</label>
+            <input type="text" class="form-control" id="age" [(ngModel)]="data.age" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+            <label for="address">Direccion</label>
+            <input type="text" class="form-control" id="address" [(ngModel)]="data.address" placeholder="Enter Name">
+        </div>
+        <button type="submit" class="btn btn-success" (click)="update()">Actualizar</button>
+        <button type="submit" class="btn btn-warning ml-1" [routerLink]="[ '/list']">Cancelar</button>
+</div>    
