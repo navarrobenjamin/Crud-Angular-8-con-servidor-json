@@ -2,11 +2,11 @@
 
 Este proyecto esta desarrollado con Angular version 8.3.24.
 
-## Para Correr el proyecto
+## Para Iniciar el proyecto
 
 Ejecutar `ng serve` para iniciar el proyecto. 
 
-## Para correr el servidor
+## Para Iniciar el servidor
 
 npm install -g json-server
 
